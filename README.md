@@ -4,6 +4,7 @@
   * [Description](#Description)
   * [Techonolgies](#Technologies)
   * [Installation](#Installation)
+  * [Credits](#Credits)
   
   * [License](#License)
 
@@ -47,3 +48,11 @@ Employee Manager uses a series of CLI prompts that will kick off queries to the 
         * Paste into MySQL and execute only the `INSERT INTO ...  VALUES (...)` information code blocks for each table. This can be done by selecting/highlighting the desired code blocks and clicking the lightning bolt.
 
 * Start the application by running `npm start`
+
+## Credits
+This assignment was provided by Trilogy Education Services. Code was developed based on in class activities and lectures, [MDN](https://developer.mozilla.org/en-US/) Reference Documents for JavaScript syntax, [JSHint](https://jshint.com/) for JavaScript validation, [mysqltutorial](https://www.mysqltutorial.org/basic-mysql-tutorial.aspx) for reference documentation and examples, and various other online resources. 
+
+## License
+
+[License](LICENSE)
+MIT &copy; 2020 Liban Esse
