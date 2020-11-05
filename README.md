@@ -2,8 +2,8 @@
 
 #### Table of Contents
   * [Description](#Description)
+  * [Techonolgies](#Technologies)
   * [Installation](#Installation)
-  *  [Installation](#Installation)
   
   * [License](#License)
 
