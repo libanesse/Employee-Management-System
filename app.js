@@ -29,17 +29,12 @@ function questions() {
         choices: [
           "View All Employees",
           "View All Departments",
-          "View All Employees By Manager",
           "View All Roles",
           "Add Employee",
           "Remove Employee",
           "Add Role",
           "Delete Role",
           "Add Department",
-          "Delete Department",
-          "Update Employee Role",
-          "Update Employee Manager",
-          "View Department Budget",
           "Exit",
         ],
       })
@@ -53,9 +48,7 @@ function questions() {
             viewAllDepartments();
             break;
   
-          case "View All Employees By Manager":
-            viewAllEmployeesByManager();
-            break;
+          
   
           case "View All Roles":
             viewAllRoles();
@@ -73,30 +66,21 @@ function questions() {
             addRole();
             break;
   
-          case "Delete Role":
-            deleteRole();
-            break;
+          
   
           case "Add Department":
             addDepartment();
             break;
   
-          case "Delete Department":
-            deleteDepartment();
-            break;
+         
   
           case "Update Employee Role":
             updateEmployeeRole();
             break;
   
-          case "Update Employee Manager":
-            updateEmployeeManager();
-            break;
-  
-          // -- TO DO --
-          case "View Department Budget":
-            viewDepartmentBudget();
-            break;
+          case "Delete Role":
+              deleteRole();
+              break;
   
           case "Exit":
             connection.end();

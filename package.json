@@ -1,7 +1,7 @@
 {
   "name": "employee-management-system",
   "version": "1.0.0",
-  "description": "server.js",
+  "description": "app.js",
   "main": "server.js",
   "scripts": {
     "test": "test\": \"echo \\\"Error: no test specified\\\" && exit 1",

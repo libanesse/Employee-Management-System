@@ -27,26 +27,26 @@ INSERT INTO role (id, title, salary, department_id)
 VALUES (4, "Sales Manager", 70000, 2);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (5, "Human Resources Coordinator", 48000, 3);
+VALUES (5, "Human Resources Manger", 48000, 3);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (6, "Human Resources Supervisor", 59000, 3);
+VALUES (6, "Human Resources ", 59000, 3);
 
 INSERT INTO role (id, title, salary, department_id)
 VALUES (7, "Tech Support", 60000, 4);
 
 INSERT INTO role (id, title, salary, department_id)
-VALUES (8, "IT Supervisor", 75000, 4);
+VALUES (8, "IT Manger", 75000, 4);
 
 -- Employee Seeds
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
 VALUES (1, "Alex", "Armstrong", 2, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (2, "Edward", "Elric", 4, null);
+VALUES (2, "Edward", "Snow", 4, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (3, "Roy", "Mustang", 6, null);
+VALUES (3, "Roy", "Brandon", 6, null);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
 VALUES (4, "Alphonse", "Elric", 8, null);
@@ -55,7 +55,7 @@ INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
 VALUES (5, "Winry", "Rockbell", 1, 1);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
-VALUES (6, "Ling", "Yao", 1, 1);
+VALUES (6, "Ming", "Yao", 1, 1);
 
 INSERT INTO employee (id, first_name, last_name, role_id, manager_id)
 VALUES (7, "Riza", "Hawkeye", 1, 1);
